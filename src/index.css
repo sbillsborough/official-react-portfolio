@@ -23,6 +23,13 @@ nav {
 }
 
 .page-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.page-content {
+  border: 2px solid black;
   display: grid;
-  grid-template-columns: 800px 100px;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
 }
