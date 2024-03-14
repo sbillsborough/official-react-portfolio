@@ -21,3 +21,8 @@ nav {
   display: flex;
   flex-direction: column;
 }
+
+.page-content {
+  display: grid;
+  grid-template-columns: 800px 100px;
+}
