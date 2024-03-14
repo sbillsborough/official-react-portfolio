@@ -22,7 +22,7 @@ nav {
   flex-direction: column;
 }
 
-.page-content {
+.page-container {
   display: grid;
   grid-template-columns: 800px 100px;
 }

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Projects() {
   return (
     <>
-      <div className="page-content">
+      <div className="page-container">
         <h1>Projects</h1>
 
         <div className="navbar">
