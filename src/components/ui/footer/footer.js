@@ -1,7 +1,12 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCodeBranch } from "@fortawesome/free-solid-svg-icons";
+
 function Footer() {
   return (
     <footer>
-      <h3>Hello World!</h3>
+      <h1>Footer</h1>
+      <FontAwesomeIcon icon="fa-brands fa-github" />
+      <FontAwesomeIcon icon={faCodeBranch} />
     </footer>
   );
 }
