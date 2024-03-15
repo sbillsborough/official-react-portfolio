@@ -6,6 +6,11 @@ function Home() {
       <div className="page-container">
         <div className="page-content">
           <h1>Home Component h1</h1>
+          <p className="intro">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi modi
+            maiores quod facere! Expedita similique iusto voluptates ipsum eius
+            quasi.
+          </p>
           <div className="navbar">
             <nav>
               <NavLink to="/">Home</NavLink>

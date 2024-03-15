@@ -31,5 +31,9 @@ nav {
   border: 2px solid black;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 50px;
+  column-gap: 25px;
+}
+
+.intro {
+  grid-row-start: 2;
 }
