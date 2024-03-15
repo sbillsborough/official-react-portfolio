@@ -18,9 +18,6 @@ function Home() {
             </nav>
           </div>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, esse.
-        </p>
       </div>
     </>
   );
