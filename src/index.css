@@ -53,3 +53,23 @@ nav {
   margin: 0 auto 10px auto;
   grid-row-start: 2;
 }
+
+.wrapper {
+  position: absolute;
+  display: flex;
+}
+
+section {
+  display: flex;
+  animation: swipe var(--speed) linear infinite backwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
