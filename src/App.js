@@ -31,10 +31,9 @@ function App() {
         <Route path="/projects" element={<Projects />} />
       </Routes>
       <Footer />
-      <Banner images={images} speed={5000} />
+      <Banner images={images} speed={100000} />
     </>
   );
 }
 
 export default App;
-export { Banner };
