@@ -59,13 +59,56 @@ nav {
   display: flex;
 }
 
+.fa-html5 {
+  color: #e34c26;
+}
+
+.fa-css3-alt {
+  color: #264de4;
+}
+
+.fa-js {
+  color: #f0db4f;
+}
+
+.fa-react {
+  color: #61dafb;
+}
+
+.fa-bootstrap {
+  color: #563d7c;
+}
+
+.fa-node {
+  color: #3c873a;
+}
+
+.fa-npm {
+  color: #cc3534;
+}
+
+.fa-github {
+  color: #171515;
+}
+
+.image {
+  font-size: 2rem;
+  margin: 0 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 img {
   max-height: 200px;
 }
 
 section {
   display: flex;
-  animation: swipe var(--speed) linear infinite backwards;
+  animation: swipe var(--speed) linear infinite alternate-reverse;
 }
 
 @keyframes swipe {
