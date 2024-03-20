@@ -32,7 +32,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
       </Routes>
 
-      <Banner images={images} speed={5000} />
+      <Banner images={images} speed={2000} />
       <Footer />
     </>
   );

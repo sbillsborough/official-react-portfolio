@@ -113,10 +113,10 @@ section {
 
 @keyframes swipe {
   0% {
-    transform: translate(0);
+    transform: translate(15%);
   }
 
   100% {
-    transform: translate(-100%);
+    transform: translate(-10%);
   }
 }
