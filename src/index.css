@@ -59,6 +59,10 @@ nav {
   display: flex;
 }
 
+img {
+  max-height: 200px;
+}
+
 section {
   display: flex;
   animation: swipe var(--speed) linear infinite backwards;
