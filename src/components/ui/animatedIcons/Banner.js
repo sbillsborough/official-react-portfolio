@@ -1,4 +1,4 @@
-const Banner = ({ images, speed = 5000 }) => {
+const Banner = ({ images, speed = 2000 }) => {
   return (
     <div className="wrapper">
       <section style={{ "--speed": `${speed}ms` }}>
