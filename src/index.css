@@ -95,6 +95,7 @@ nav {
   font-size: 2rem;
   margin: 0 10px;
   animation: spin var(--speed) linear infinite alternate-reverse;
+  filter: drop-shadow(0 0 0.75rem crimson);
 }
 
 .wrapper {
